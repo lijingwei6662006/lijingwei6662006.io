@@ -1,0 +1,11 @@
+git log
+git reflog
+git reset --hard 212swq
+git add .
+git commit -m "qwq"
+git checkout
+git branch
+git checkout -b lijingwei
+git checkout lijingwei
+git merge master
+git tag v02
