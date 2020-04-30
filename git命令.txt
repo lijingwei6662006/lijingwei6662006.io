@@ -49,3 +49,11 @@ git push -u origin master
 
 git branch --set-upstream-to=origin/master master远程分支和本地分支建立联系
 git pull origin master --allow-unrelated-histories解决远程仓库和本地仓库没有建立联系的pull时报错
+
+
+git stash save
+git stash pop
+git stash drop
+git stash drop
+git stash clear
+git stash list
