@@ -5,7 +5,47 @@ git add .
 git commit -m "qwq"
 git checkout
 git branch
+git branch -a查看远程仓库分支
+git branch -d lijinwgei
+git push origin --delete bug_xzx
 git checkout -b lijingwei
 git checkout lijingwei
 git merge master
 git tag v02
+git clone
+git pull
+ git push --set-upstream origin lijingwei
+git tag <tagName> //创建本地tag
+git push origin <tagName> //推送到远程仓库
+git push origin --tags  若存在很多未推送的本地标签，你想一次全部推送的话，可以使用一下的命令：
+git log --pretty=oneline //查看当前分支的提交历史，里面包含 commit id
+git tag -a <tagName> <commitId>查看标签
+git show <tagName>查看本地某个 tag 的详细信息：
+git tag 下面两个命令都可以
+git ls-remote --tags origin查看远程所有 tag：
+git tag -d <tagName>本地 tag 的删除：
+git push origin   :<tagName>远程 tag 的删除：
+git tag -d <oldTagName>
+git tag <newTagName>
+git push origin <newTagName> //推送到远程仓库
+
+git tag -d <oldTagName>
+git push origin :<oldTagName>
+git tag <newTagName>
+git push origin <newTagName> //推送到远程仓库
+
+
+git checkout -b <branchName> <tagName>检出标签
+git 拉取远程主干的代码到本地分支(更新主干master的代码到自己本地仓库的分支上进行开发)
+git pull origin 远程主分支名:本地分支名
+
+git rebase lijingwei1
+
+
+git remote add origin http://www.baidu.com
+git remote -v
+git push -u origin master
+
+
+git branch --set-upstream-to=origin/master master远程分支和本地分支建立联系
+git pull origin master --allow-unrelated-histories解决远程仓库和本地仓库没有建立联系的pull时报错
