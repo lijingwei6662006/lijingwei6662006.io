@@ -54,6 +54,6 @@ git pull origin master --allow-unrelated-histories解决远程仓库和本地仓
 git stash save
 git stash pop
 git stash drop
-git stash drop
+git stash apply stash@{1}
 git stash clear
 git stash list
