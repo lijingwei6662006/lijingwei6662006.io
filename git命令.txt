@@ -57,3 +57,8 @@ git stash drop
 git stash apply stash@{1}
 git stash clear
 git stash list
+
+git rebase
+git revert
+git cherry-pick
+tig
