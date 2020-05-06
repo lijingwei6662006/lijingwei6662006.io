@@ -42,7 +42,7 @@ git pull origin 远程主分支名:本地分支名
 git rebase lijingwei1
 
 
-git remote add origin http://www.baidu.com
+git remote add asd  http://www.baidu.com
 git remote -v
 git push -u origin master
 
